@@ -22,6 +22,6 @@ jobs:
           scope: subscription
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: ${{ GITHUB_WORKSPACE }}/azuredeploy.json
-          parameters: ${{ GITHUB_WORKSPACE }}/azuredeploy.parameters.json
+          template: $GITHUB_WORKSPACE/azuredeploy.json
+          parameters: $GITHUB_WORKSPACE/azuredeploy.parameters.json
           region: eastus
