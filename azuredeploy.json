@@ -239,7 +239,7 @@
           {
             "name": "default-allow-rdp",
             "properties": {
-              "priority": 10000,
+              "priority": 1000,
               "sourceAddressPrefix": "*",
               "protocol": "Tcp",
               "destinationPortRange": "3389",
