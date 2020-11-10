@@ -2,7 +2,7 @@ name: DeployARMTemplate
 on:
   push:
     branches:
-      - master
+      - main
 env:
   AZURE_SUBSCRIPTION_ID: 01b44531-71d7-4d72-98b7-eb00fff996a9   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
