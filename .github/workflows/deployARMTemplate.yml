@@ -25,4 +25,3 @@ jobs:
           template: $GITHUB_WORKSPACE/azuredeploy.json
           parameters: $GITHUB_WORKSPACE/azuredeploy.parameters.json
           region: canadacentral 
-
