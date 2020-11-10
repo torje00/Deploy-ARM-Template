@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "GEN-UNIQUE"
+            "value": "azadmin"
         },
         "adminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "P@$$word4140%"
         }
     }
 }
