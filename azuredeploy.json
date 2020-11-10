@@ -12,7 +12,7 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "Default Admin username"
+        "description": "Default Admin username fro the vm."
       }
     },
     "adminPassword": {
